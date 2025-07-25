@@ -1109,7 +1109,8 @@
 				"Cloudy",
 				"Fogy",
 				"LightRainy",
-				"Rainy"
+				"Rainy",
+				"Stormy"
 			]
 		},
 		"LairPrototype":
@@ -1240,7 +1241,8 @@
 				"Cloudy",
 				"Fogy",
 				"LightRainy",
-				"Rainy"
+				"Rainy",
+				"Stormy"
 			]
 		},
 		"LairPrototype":
