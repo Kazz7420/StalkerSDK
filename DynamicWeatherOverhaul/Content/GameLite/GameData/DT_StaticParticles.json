@@ -332,7 +332,9 @@
 		"NiagaraSystems": [
 			"/Game/_Stalker_2/VFX/Cinematic/E06_MQ02/NS_CIN_Fire_Ground.NS_CIN_Fire_Ground",
 			"/Game/_Stalker_2/VFX/Cinematic/E06_MQ02/NS_CIN_Fire_Ground_2.NS_CIN_Fire_Ground_2",
-			"/Game/_Stalker_2/VFX/Cinematic/E06_MQ02/NS_CIN_Fire_Ground_Wall.NS_CIN_Fire_Ground_Wall"
+			"/Game/_Stalker_2/VFX/Cinematic/E06_MQ02/NS_CIN_Fire_Ground_Wall.NS_CIN_Fire_Ground_Wall",
+			"/Game/_Stalker_2/VFX/Environment/BonFire/Niagara/NS_Bonfire.NS_Bonfire",
+			"/CozyFireplace/_Stalker_2/VFX/Environment/BonFire/Niagara/NS_Bonfire.NS_Bonfire"
 		]
 	},
 	{
@@ -1328,74 +1330,5 @@
 			}
 		},
 		"NiagaraSystems": []
-	},
-	{
-		"Name": "GeneralFire",
-		"ParticleType": "FireBarrel",
-		"Providers": [
-			"/Script/CoreUObject.Class'/Script/Stalker2.NiagaraWindIntensityDirectionProvider'"
-		],
-		"IndoorSpawnPrototype":
-		{
-			"IgnoredAudioRoomPresets": [
-				"GlobalExterior"
-			],
-			"ForbiddenBandwidthTypes": [
-				"Close",
-				"HalfOpen",
-				"Isolated",
-				"Custom"
-			],
-			"MinDistanceToAudioVolume": 0
-		},
-		"WeatherTypePrototype":
-		{
-			"AllowedWeatherTypes": [
-				"Clearly",
-				"Cloudy",
-				"Fogy",
-				"Stormy",
-				"LightRainy",
-				"Rainy",
-				"Thundery",
-				"Emission",
-				"CalmBeforeEmission"
-			]
-		},
-		"LairPrototype":
-		{
-			"LairCheckDistance": 1000,
-			"AllowedNPCTypes": [
-				"Human"
-			]
-		},
-		"PlayerDistancePrototype":
-		{
-			"MaxDistance": 0
-		},
-		"DaytimePrototype":
-		{
-			"SpawnTime": 0,
-			"DespawnTime": 0
-		},
-		"RainIntensityPrototype":
-		{
-			"AllowedRainIntensityInterval":
-			{
-				"Min": 0,
-				"Max": 0.64
-			}
-		},
-		"WindIntensityPrototype":
-		{
-			"AllowedWindIntensityInterval":
-			{
-				"Min": 0,
-				"Max": 1
-			}
-		},
-		"NiagaraSystems": [
-			"/Game/_Stalker_2/VFX/Environment/BonFire/Niagara/NS_Bonfire.NS_Bonfire"
-		]
 	}
 ]
