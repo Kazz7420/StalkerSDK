@@ -318,7 +318,7 @@
 			"AllowedRainIntensityInterval":
 			{
 				"Min": 0,
-				"Max": 1
+				"Max": 0.64
 			}
 		},
 		"WindIntensityPrototype":
@@ -403,7 +403,8 @@
 			}
 		},
 		"NiagaraSystems": [
-			"/Game/_Stalker_2/VFX/Environment/BonFire/Niagara/NS_Bonfire.NS_Bonfire"
+			"/Game/_Stalker_2/VFX/Environment/BonFire/Niagara/NS_Bonfire.NS_Bonfire",
+			"/CozyFireplace/_Stalker_2/VFX/Environment/BonFire/Niagara/NS_Bonfire.NS_Bonfire"
 		]
 	},
 	{

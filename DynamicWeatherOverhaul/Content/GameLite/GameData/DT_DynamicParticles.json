@@ -47,7 +47,7 @@
 			{
 				"BaseSpawnProbability": 0.1,
 				"SpawnProbabilityIncrement": 0.1,
-				"SpawnProbabilityCheckTime": 15,
+				"SpawnProbabilityCheckTime": 25,
 				"MinSpawnDistance": 150,
 				"MaxSpawnDistance": 7000,
 				"SurfaceHeightOffset": 1,
@@ -57,10 +57,10 @@
 			},
 			"Emission":
 			{
-				"BaseSpawnProbability": 0.1,
-				"SpawnProbabilityIncrement": 0.15,
-				"SpawnProbabilityCheckTime": 8,
-				"MinSpawnDistance": 100,
+				"BaseSpawnProbability": 0.2,
+				"SpawnProbabilityIncrement": 0.4,
+				"SpawnProbabilityCheckTime": 4,
+				"MinSpawnDistance": 300,
 				"MaxSpawnDistance": 7000,
 				"SurfaceHeightOffset": 1,
 				"LocationCheckTime": 5,
@@ -70,21 +70,9 @@
 			"CalmBeforeEmission":
 			{
 				"BaseSpawnProbability": 0.1,
-				"SpawnProbabilityIncrement": 0.1,
-				"SpawnProbabilityCheckTime": 25,
+				"SpawnProbabilityIncrement": 0.15,
+				"SpawnProbabilityCheckTime": 15,
 				"MinSpawnDistance": 150,
-				"MaxSpawnDistance": 7000,
-				"SurfaceHeightOffset": 1,
-				"LocationCheckTime": 5,
-				"MaxParticleCount": 1,
-				"bSpawnInPlayerViewport": true
-			},
-			"Rainy":
-			{
-				"BaseSpawnProbability": 0.1,
-				"SpawnProbabilityIncrement": 0.1,
-				"SpawnProbabilityCheckTime": 600,
-				"MinSpawnDistance": 250,
 				"MaxSpawnDistance": 7000,
 				"SurfaceHeightOffset": 1,
 				"LocationCheckTime": 5,
@@ -764,7 +752,7 @@
 		{
 			"Clearly":
 			{
-				"BaseSpawnProbability": 0.1,
+				"BaseSpawnProbability": 0.2,
 				"SpawnProbabilityIncrement": 0.1,
 				"SpawnProbabilityCheckTime": 0,
 				"LocationCheckTime": 0,
@@ -778,7 +766,7 @@
 			"Cloudy":
 			{
 				"BaseSpawnProbability": 0.2,
-				"SpawnProbabilityIncrement": 0.1,
+				"SpawnProbabilityIncrement": 0.2,
 				"SpawnProbabilityCheckTime": 0,
 				"LocationCheckTime": 0,
 				"PlayerHeadOffset":
@@ -788,10 +776,10 @@
 					"Z": 0
 				}
 			},
-			"Fogy":
+			"CalmBeforeEmission":
 			{
-				"BaseSpawnProbability": 0.1,
-				"SpawnProbabilityIncrement": 0.1,
+				"BaseSpawnProbability": 0.4,
+				"SpawnProbabilityIncrement": 0.2,
 				"SpawnProbabilityCheckTime": 0,
 				"LocationCheckTime": 0,
 				"PlayerHeadOffset":
@@ -805,6 +793,19 @@
 			{
 				"BaseSpawnProbability": 0.3,
 				"SpawnProbabilityIncrement": 0.15,
+				"SpawnProbabilityCheckTime": 0,
+				"LocationCheckTime": 0,
+				"PlayerHeadOffset":
+				{
+					"X": 0,
+					"Y": 0,
+					"Z": 0
+				}
+			},
+			"Emission":
+			{
+				"BaseSpawnProbability": 0.4,
+				"SpawnProbabilityIncrement": 0.2,
 				"SpawnProbabilityCheckTime": 0,
 				"LocationCheckTime": 0,
 				"PlayerHeadOffset":
