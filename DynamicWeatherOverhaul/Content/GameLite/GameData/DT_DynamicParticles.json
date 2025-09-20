@@ -298,10 +298,10 @@
 				},
 				"PlayerComponentSpawnPrototype":
 				{
-					"BaseSpawnProbability": 0.4,
+					"BaseSpawnProbability": 0.6,
 					"SpawnProbabilityIncrement": 0.15,
-					"SpawnProbabilityCheckTime": 4,
-					"LocationCheckTime": 0,
+					"SpawnProbabilityCheckTime": 2,
+					"LocationCheckTime": 1,
 					"PlayerHeadOffset":
 					{
 						"X": 0,
