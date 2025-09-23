@@ -864,7 +864,7 @@
       "MinDistanceToAudioVolume": 0
     },
     "WeatherTypePrototype": {
-      "AllowedWeatherTypes": ["Rainy", "LightRainy", "Fogy", "Cloudy", "Clearly"]
+      "AllowedWeatherTypes": ["LightRainy", "Fogy", "Cloudy", "Clearly"]
     },
     "LairPrototype": {
       "LairCheckDistance": 0,
