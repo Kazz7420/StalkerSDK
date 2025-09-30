@@ -1,0 +1,83 @@
+LuminanceSettings : struct.begin {bpatch}
+   EnvironmentLuminanceCoefficients : struct.begin {bpatch}
+      WeatherLuminanceCoefficients : struct.begin
+         [*] : struct.begin
+            WeatherType = EWeather::Clearly
+            Coefficient = 1.f
+         struct.end
+         [*] : struct.begin
+            WeatherType = EWeather::Cloudy
+            Coefficient = 0.95f
+         struct.end
+         [*] : struct.begin
+            WeatherType = EWeather::Fogy
+            Coefficient = 0.5f
+         struct.end
+         [*] : struct.begin
+            WeatherType = EWeather::Stormy
+            Coefficient = 0.8f
+         struct.end
+         [*] : struct.begin
+            WeatherType = EWeather::LightRainy
+            Coefficient = 0.9f
+         struct.end
+         [*] : struct.begin
+            WeatherType = EWeather::Rainy
+            Coefficient = 0.7f
+         struct.end
+         [*] : struct.begin
+            WeatherType = EWeather::Thundery
+            Coefficient = 0.6f
+         struct.end
+         [*] : struct.begin
+            WeatherType = EWeather::Emission
+            Coefficient = 0.5f
+         struct.end
+         [*] : struct.begin
+            WeatherType = EWeather::CalmBeforeEmission
+            Coefficient = 0.7f
+         struct.end
+         [*] : struct.begin
+            WeatherType = EWeather::Underground
+            Coefficient = 1.f
+         struct.end
+      struct.end
+      TimeOfDayBaseLuminance : struct.begin
+         [*] : struct.begin
+            TimeFrom = 0
+            TimeTill = 4.5
+            Luminance = 0.2f
+         struct.end
+         [*] : struct.begin
+            TimeFrom = 4.5
+            TimeTill = 7
+            Luminance = 0.3f
+         struct.end
+         [*] : struct.begin
+            TimeFrom = 7
+            TimeTill = 9
+            Luminance = 0.8f
+         struct.end
+         [*] : struct.begin
+            TimeFrom = 9
+            TimeTill = 18
+            Luminance = 0.95f
+         struct.end
+         [*] : struct.begin
+            TimeFrom = 18
+            TimeTill = 20
+            Luminance = 0.8f
+         struct.end
+         [*] : struct.begin
+            TimeFrom = 20
+            TimeTill = 21.5
+            Luminance = 0.5f
+         struct.end
+         [*] : struct.begin
+            TimeFrom = 21.5
+            TimeTill = 23.99
+            Luminance = 0.2f
+         struct.end
+      struct.end
+   struct.end
+struct.end
