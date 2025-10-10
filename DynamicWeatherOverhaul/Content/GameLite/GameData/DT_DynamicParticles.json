@@ -48,7 +48,7 @@
 				"BaseSpawnProbability": 0.1,
 				"SpawnProbabilityIncrement": 0.1,
 				"SpawnProbabilityCheckTime": 15,
-				"MinSpawnDistance": 150,
+				"MinSpawnDistance": 250,
 				"MaxSpawnDistance": 7000,
 				"SurfaceHeightOffset": 1,
 				"LocationCheckTime": 5,
@@ -59,8 +59,8 @@
 			{
 				"BaseSpawnProbability": 0.2,
 				"SpawnProbabilityIncrement": 0.4,
-				"SpawnProbabilityCheckTime": 4,
-				"MinSpawnDistance": 300,
+				"SpawnProbabilityCheckTime": 5,
+				"MinSpawnDistance": 150,
 				"MaxSpawnDistance": 7000,
 				"SurfaceHeightOffset": 1,
 				"LocationCheckTime": 5,
@@ -71,7 +71,7 @@
 			{
 				"BaseSpawnProbability": 0.1,
 				"SpawnProbabilityIncrement": 0.15,
-				"SpawnProbabilityCheckTime": 15,
+				"SpawnProbabilityCheckTime": 10,
 				"MinSpawnDistance": 150,
 				"MaxSpawnDistance": 7000,
 				"SurfaceHeightOffset": 1,
